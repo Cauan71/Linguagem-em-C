@@ -1,32 +1,34 @@
+#include <stdio.h>
 int main(){
 	 
-	 //Declarando variáveis 
+	 //Declarando variÃ¡veis 
 	 
 	 int num1, num2, soma, subtracao, divisao, multiplicacao;
 	 
 	 
-	 //Obtendo dados do usuário 
-	 printf("Digite o primeiro número: ");
+	 //Obtendo dados do usuÃ¡rio 
+	 printf("Digite o primeiro nÃºmero: ");
 	 	scanf("%i",&num1);
 	 	
-	printf("Digite o segundo número: ");
+	printf("Digite o segundo nÃºmero: ");
 		scanf("%i",&num2);
 		
-	//Realizando as operações
+	//Realizando as operaÃ§Ãµes
 	soma = num1+num2;
 	subtracao = num1-num2;
 	divisao = num1/num2;
 	multiplicacao = num1*num2;
 	
 	
-	 //Exibindo os dados para o usuário 
+	 //Exibindo os dados para o usuÃ¡rio 
 	 
 	 printf("================ R E S U L T A D O ===============");
-	 printf("\nPrimeiro Número: %i",num1);
-	 printf("\nSegundo Número: %i",num2);
+	 printf("\nPrimeiro NÃºmero: %i",num1);
+	 printf("\nSegundo NÃºmero: %i",num2);
 	 printf("\nSoma: %i",soma);
-	 printf("\nSubtração: %i",subtracao);
-	 printf("\nDivisão: %i",divisao);
-	 printf("\nMultiplicação: %i",multiplicacao);
-	 
+	 printf("\nSubtraÃ§Ã£o: %i",subtracao);
+	 printf("\nDivisÃ£o: %i",divisao);
+	 printf("\nMultiplicaÃ§Ã£o: %i",multiplicacao);
+
+	return 0;
 }
