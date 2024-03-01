@@ -3,12 +3,12 @@
 
 int main(){
 		setlocale(LC_ALL,"");
-	//Declarando vari·veis
+	//Declarando vari√°veis
 	char nome[50];
 	int idade;
 	float nota1, nota2, nota3,media;
 	
-	//Obtendo dados do usu·rio 
+	//Obtendo dados do usu√°rio 
 	printf("Digite o seu nome: ");
 		scanf("%s",&nome);
 		
@@ -28,14 +28,14 @@ int main(){
 	media = (nota1+nota2+nota3)/3;
 	
 
-	
+	system("cls");
 	
 		
 	//Exibindo resultados
 	printf("\n============== R E S U L T A D O ===============");
 	printf("\nNome: %s",nome);
 	printf("\nIdade: %i",idade);
-	printf("\nMÈdia: %.1f",media);
+	printf("\nM√©dia: %.1f",media);
 	
 	
 		
