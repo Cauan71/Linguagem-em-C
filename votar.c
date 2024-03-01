@@ -6,16 +6,19 @@
 int main(){
 	
 	setlocale(LC_ALL,"");
+	//Declarando variáveis
 	int idade;
-	
+
+	//Obtendo dados do usuário 
 	printf("Digite sua idade: ");
 		scanf("%i",&idade);
-		
+
+	//Requerimento de idade 
 	if(idade >=18 && idade <=65){
 		printf("Precisa Votar!!");
 		
 	}else {
-		printf("N�o precisa Votar!!");
+		printf("Não precisa Votar!!");
 		
 	}
 	
