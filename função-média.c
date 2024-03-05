@@ -23,18 +23,18 @@ int main(){
 	int n1, n2,media;
 	
 	inicio();
-	printf("\nDigite o primeiro número: ");
+	printf("\nDigite o primeiro nÃºmero: ");
 		scanf("%i",&n1);
 		
 	inicio();
-	printf("\nDigite o segundo número: ");
+	printf("\nDigite o segundo nÃºmero: ");
 		scanf("%i",&n2);
 		
 	
 	media = mediaAritmetica(n1, n2);
 	
 	
-	printf("\nMédia: %i",media );
+	printf("\nMÃ©dia: %i",media );
 	
 	
 		
