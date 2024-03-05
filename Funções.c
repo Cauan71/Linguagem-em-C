@@ -35,11 +35,11 @@ int main(){
 	int n1, n2,media,soma, subtracao;
 	
 	inicio();
-	printf("\nDigite o primeiro número: ");
+	printf("\nDigite o primeiro nÃºmero: ");
 		scanf("%i",&n1);
 		
 	inicio();
-	printf("\nDigite o segundo número: ");
+	printf("\nDigite o segundo nÃºmero: ");
 		scanf("%i",&n2);
 		
 	
@@ -48,9 +48,9 @@ int main(){
 	subtracao = subtrair(n1, n2);
 	
 	
-	printf("\nMédia: %i",media );
+	printf("\nMÃ©dia: %i",media );
 	printf("\nSoma: %i",soma);
-	printf("\nSubtração: %i",subtracao);
+	printf("\nSubtraÃ§Ã£o: %i",subtracao);
 	
 	
 		
