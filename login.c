@@ -10,7 +10,11 @@ int main(){
 	char loginCadastrado[200] = "Usuario";
 	char senhaCadastrada[200] = "123";
 	
-	
+	//fflush(stdin); 
+	//Limpa cache do input.
+
+	//system("cls || clear"); 
+	//Limpa o terminal 
 	
 	printf("Digite o seu Login: ");
 		scanf("%s",&login);
@@ -21,7 +25,7 @@ int main(){
 		//&& == e
 		// || == ou
 		
-		//Verificando se o login e senha est„o corretos.
+		//Verificando se o login e senha est√£o corretos.
 		//if(login == loginCadastrado && senha == senhaCadastrada){
 		if(strcmp(login, loginCadastrado) == 0 && strcmp(senha, senhaCadastrada) == 0 ){
 			printf("Bem Vindo!!");
