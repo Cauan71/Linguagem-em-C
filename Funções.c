@@ -10,8 +10,8 @@ void inicio(){
 	fflush(stdin);
 	
 }
-				//FunÁıes
-	//MÈdia
+				//Fun√ß√µes
+	//M√©dia
 	int mediaAritmetica(int n1, int n2){
 	int media;
 	media = (n1+n2)/2;
@@ -26,7 +26,7 @@ void inicio(){
 	
 }
 
-	//SubtraÁ„o
+	//Subtra√ß√£o
 	int subtrair(int n1, int n2){
 	int subtracao;
 	subtracao = n1-n2;
@@ -34,7 +34,7 @@ void inicio(){
 }
 
 
-	//MultiplicaÁ„o
+	//Multiplica√ß√£o
 	int multiplicar(int n1, int n2){
 	int multiplicacao;
 	multiplicacao = n1*n2;
@@ -42,7 +42,7 @@ void inicio(){
 }
 
 
-	//Divis„o
+	//Divis√£o
 	int dividir(int n1, int n2){
 	int divisao;
 	divisao = n1/n2;
@@ -53,20 +53,20 @@ void inicio(){
 int main(){
 	setlocale(LC_ALL,"");
 	
-	//Declarando vari·veis
+	//Declarando vari√°veis
 	int n1, n2,media,soma, subtracao, multiplicacao, divisao;
 	
-	//Obtendo dados do usu·rio
+	//Obtendo dados do usu√°rio
 	inicio();
-	printf("\nDigite o primeiro n˙mero: ");
+	printf("\nDigite o primeiro n√∫mero: ");
 		scanf("%i",&n1);
 		
 	inicio();
-	printf("\nDigite o segundo n˙mero: ");
+	printf("\nDigite o segundo n√∫mero: ");
 		scanf("%i",&n2);
 		
 		
-	//AplicaÁıes
+	//Aplica√ß√µes
 	media = mediaAritmetica(n1, n2);
 	soma = somar(n1,n2);
 	subtracao = subtrair(n1, n2);
@@ -75,12 +75,12 @@ int main(){
 	
 	
 	
-	//Exibindo Resultado para o usu·rio
-	printf("\nMÈdia: %i",media );
+	//Exibindo Resultado para o usu√°rio
+	printf("\nM√©dia: %i",media );
 	printf("\nSoma: %i",soma);
-	printf("\nSubtraÁ„o: %i",subtracao);
-	printf("\nMultiplicaÁ„o: %i",multiplicacao);
-	printf("\nDivis„o: %i",divisao);
+	printf("\nSubtra√ß√£o: %i",subtracao);
+	printf("\nMultiplica√ß√£o: %i",multiplicacao);
+	printf("\nDivis√£o: %i",divisao);
 	
 	
 	
