@@ -9,7 +9,7 @@ int main(){
 	int i;
 	float nota, soma;
 	
-	for(i = 1; i <=5; i++) {
+	for(i = 1; i <=5;i++) {
 		printf("Digite a %iº nota: ",i);
 			scanf("%f",&nota);
 			
