@@ -4,6 +4,12 @@
 #include <locale.h>
 #include <stdlib.h>
 
+
+void carregar(){
+	system("cls || clear");
+	printf("Carregando....");
+	sleep(3);
+
 int main(){
 	char login[200] ;
 	char senha[200] ;
@@ -17,7 +23,7 @@ int main(){
 		
 		printf("Digite a senha: ");
 			scanf("%s",&senha);
-			
+	carregar();
 		
 	}while(strcmp(loginCadastrado,login) !=0 || strcmp(senhaCadastrada,senha) !=0);
 	
